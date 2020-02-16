@@ -1,0 +1,300 @@
+private void METHOD_1 ( ) { if ( VAR_1 . METHOD_2 ( ) ) { return ; } VAR_1 . METHOD_3 ( ) ; VAR_1 . METHOD_4 ( VAR_2 , INT_1 ) ; }
+public TYPE_1 < TYPE_2 > METHOD_1 ( ) { TYPE_1 < TYPE_2 > result = new TYPE_3 < TYPE_2 > ( ) ; for ( TYPE_4 VAR_1 : VAR_2 . METHOD_2 ( ) ) { METHOD_3 ( result , VAR_3 . METHOD_4 ( VAR_1 ) , VAR_1 , null ) ; } return result ; }
+public static void METHOD_1 ( TYPE_1 file , String VAR_1 ) { try { TYPE_2 writer = new TYPE_2 ( new TYPE_3 ( file ) ) ; writer.write ( VAR_1 ) ; writer . METHOD_2 ( ) ; } catch ( TYPE_4 VAR_2 ) { TYPE_5 . METHOD_3 ( VAR_2 ) ; } }
+public void METHOD_1 ( ) { super . METHOD_1 ( ) ; if ( ! VAR_1 && TYPE_1 . METHOD_2 ( VAR_2 ) == 0 && VAR_3 ) { TYPE_2 . METHOD_3 ( this , STRING_1 ) ; return ; } METHOD_4 ( VAR_3 ) ; }
+public void METHOD_1 ( int VAR_1 ) { METHOD_2 ( STRING_1 + VAR_1 ) ; METHOD_3 ( ) ; METHOD_4 ( ) ; }
+private void METHOD_1 ( ) { VAR_1 = null ; METHOD_2 ( null , null ) ; VAR_2 . METHOD_3 ( ) ; }
+private TYPE_1 METHOD_1 ( final String text ) { return VAR_1 . METHOD_2 ( ) . METHOD_3 ( target , new TYPE_2 < TYPE_1 > ( VAR_2 class ) { protected boolean METHOD_4 ( TYPE_1 VAR_3 ) { return text . equals ( VAR_3 . getText ( ) ) ; } } ) ; }
+void METHOD_1 ( TYPE_1 VAR_1 ) { VAR_2 . put ( VAR_1 . METHOD_2 ( ) , VAR_1 ) ; VAR_2 . put ( VAR_1 . METHOD_2 ( ) . METHOD_3 ( ) , VAR_1 ) ; VAR_2 . put ( VAR_1 . METHOD_4 ( ) , VAR_1 ) ; }
+public boolean METHOD_1 ( ) { if ( TYPE_1 . METHOD_2 ( ) ) { TYPE_2 . METHOD_3 ( ) ; } else { TYPE_2 . METHOD_4 ( ) ; } return super . METHOD_1 ( ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 . METHOD_2 ( VAR_2 , STRING_1 ) ; }
+protected synchronized TYPE_1 METHOD_1 ( ) { TYPE_1 result = METHOD_1 ( METHOD_2 ( ) ) ; if ( result == VAR_1 || result == VAR_2 ) { VAR_3 . METHOD_3 ( ) ; VAR_3 = null ; } return result ; }
+int METHOD_1 ( ) { return VAR_1 ; }
+public boolean METHOD_1 ( ) { if ( ! VAR_1 ) { return true ; } if ( VAR_2 != null ) { if ( ! VAR_2 . METHOD_2 ( ) ) { return false ; } } return VAR_3 . METHOD_2 ( ) ; }
+private void METHOD_1 ( ) { if ( TYPE_1 . METHOD_2 ( ) != TYPE_1 . METHOD_3 ( ) ) { throw new TYPE_2 ( STRING_1 ) ; } }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 VAR_3 , TYPE_3 VAR_4 ) { super ( STRING_1 + VAR_2 . METHOD_1 ( ) + STRING_2 + VAR_3 . METHOD_1 ( ) + STRING_3 + VAR_4 . METHOD_2 ( ) ) ; }
+protected void METHOD_1 ( ) { if ( VAR_1 == null ) return ; VAR_2 = ( VAR_2 + 1 ) % VAR_1 . size ( ) ; METHOD_2 ( ) ; }
+public static void METHOD_1 ( int [ ] a , float [ ] b ) { for ( int i = 0 ; i < INT_1 ; i ++ ) { b [ i ] = ( float ) a [ i ] ; } }
+public void start ( TYPE_1 VAR_1 ) { TYPE_2 . i ( VAR_2 , STRING_1 ) ; VAR_3 = VAR_1 . METHOD_1 ( ) ; VAR_3 . start ( VAR_4 , VAR_1 . METHOD_2 ( ) . METHOD_3 ( ) ) ; }
+public VAR_1 ( TYPE_1 < ? , ? , ? > VAR_2 ) { this . VAR_2 = VAR_2 ; this . VAR_3 = TYPE_2 . METHOD_1 ( ) ; }
+public VAR_1 ( String VAR_2 , String VAR_3 , TYPE_1 ... VAR_4 ) { this ( VAR_2 , VAR_3 , TYPE_2 . METHOD_1 ( VAR_4 ) ) ; }
+public static TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) { TYPE_3 < TYPE_1 > VAR_2 = VAR_1 . METHOD_2 ( ) ; TYPE_1 VAR_3 = null ; if ( ! VAR_2 . isEmpty ( ) ) { VAR_3 = VAR_2 . iterator ( ) . METHOD_3 ( ) ; } return VAR_3 ; }
+private static boolean METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 VAR_2 = TYPE_2 . METHOD_2 ( VAR_1 ) ; for ( TYPE_3 VAR_3 : VAR_2 . METHOD_3 ( ) ) { if ( TYPE_4 . METHOD_2 ( VAR_3 ) != null ) { return true ; } } return false ; }
+public boolean METHOD_1 ( ) { boolean VAR_1 = VAR_2 == VAR_3 && TYPE_1 . get ( ) . METHOD_2 ( ) ; boolean VAR_4 = VAR_5 . METHOD_3 ( VAR_6 , true ) ; return ! VAR_1 && VAR_4 ; }
+public VAR_1 ( String key , TYPE_1 VAR_2 , boolean VAR_3 , TYPE_2 < TYPE_3 , TYPE_1 > VAR_4 ) { VAR_5 = key ; VAR_6 = VAR_2 ; VAR_7 = VAR_3 ; VAR_8 = TYPE_4 . METHOD_1 ( VAR_4 ) ; }
+public void METHOD_1 ( ) { assertTrue ( 0 < VAR_1 . METHOD_2 ( ) . METHOD_3 ( ) ) ; assertEquals ( VAR_1 . getTime ( ) , VAR_1 . METHOD_2 ( ) . METHOD_3 ( ) ) ; }
+public TYPE_1 METHOD_1 ( ) { return new TYPE_1 ( this ) ; }
+private void METHOD_1 ( ) { VAR_1 = null ; METHOD_2 ( null , null ) ; VAR_2 . METHOD_3 ( ) ; }
+public TYPE_1 METHOD_1 ( ) { return ( TYPE_1 ) VAR_1 . METHOD_2 ( ) . METHOD_3 ( ) ; }
+public int METHOD_1 ( ) { int result = 0 ; TYPE_1 VAR_1 = METHOD_2 ( ) ; while ( VAR_1 != null ) { result += VAR_1 . METHOD_3 ( ) . length ; VAR_1 = VAR_1 . METHOD_4 ( ) ; } return result ; }
+private static boolean METHOD_1 ( byte [ ] VAR_1 ) { int c = 0 ; for ( byte b : VAR_1 ) { c |= b ; } return c == 0 ; }
+private VAR_1 ( TYPE_1 VAR_2 ) { VAR_3 = VAR_2 . METHOD_1 ( ) ; int VAR_4 = VAR_2 . METHOD_2 ( ) ; VAR_5 = new byte [ VAR_4 ] ; VAR_2 . METHOD_3 ( VAR_5 ) ; VAR_6 = VAR_2 . METHOD_2 ( ) ; return ; }
+public TYPE_1 < String > METHOD_1 ( ) { return TYPE_2 . METHOD_2 ( VAR_1 , VAR_2 , VAR_3 , VAR_4 ) ; }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 < String , TYPE_3 > VAR_3 ) { VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; }
+private static void METHOD_1 ( TYPE_1 < TYPE_2 > VAR_1 ) { for ( int i = 0 ; i < VAR_2 ; i ++ ) { VAR_1 . add ( new TYPE_2 ( true ) ) ; } }
+public static double METHOD_1 ( ) { long VAR_1 = INT_1 ; return ( double ) VAR_1 ; }
+public void METHOD_1 ( ) { final int VAR_1 = INT_1 ; assertEquals ( VAR_1 , TYPE_1 . size ( ) ) ; }
+protected void METHOD_1 ( TYPE_1 VAR_1 ) { super . METHOD_1 ( VAR_1 ) ; METHOD_2 ( VAR_2 ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { VAR_2 . METHOD_2 ( ) ; }
+protected void METHOD_1 ( ) { super . METHOD_1 ( ) ; if ( VAR_1 != null && VAR_2 != null && VAR_3 != null ) { VAR_1 . METHOD_2 ( VAR_2 , VAR_3 ) ; } }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 < TYPE_3 > VAR_2 = VAR_3 . METHOD_2 ( ) ; if ( VAR_2 != null ) { METHOD_3 ( VAR_2 , VAR_1 ) ; } }
+private void METHOD_1 ( String message ) { new TYPE_1 ( this ) . METHOD_2 ( VAR_1 ) . METHOD_3 ( getString ( VAR_2 ) + STRING_1 + message ) . show ( ) ; }
+public void METHOD_1 ( ) { METHOD_2 ( VAR_1 ) ; VAR_2 . METHOD_3 ( true ) ; METHOD_4 ( VAR_1 ) . METHOD_1 ( ) ; }
+public void METHOD_1 ( TYPE_1 listener ) { synchronized ( VAR_1 ) { VAR_1 . add ( listener ) ; } }
+public TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 VAR_2 ) { TYPE_1 VAR_3 = VAR_2 . METHOD_2 ( ) ; if ( VAR_1 . get ( VAR_4 ) ) { VAR_3 . add ( VAR_5 class ) ; } return VAR_3 ; }
+public static void METHOD_1 ( ) { TYPE_1 VAR_1 = new TYPE_1 ( ) ; long result = VAR_1 . get ( ) ; VAR_2 . METHOD_2 ( STRING_1 + result ) ; }
+private static int METHOD_1 ( boolean x ) { return TYPE_1 . METHOD_2 ( x ? 1 : 0 ) ; }
+long METHOD_1 ( ) { return VAR_1 ; }
+public void METHOD_1 ( int VAR_1 ) { super . METHOD_1 ( VAR_1 ) ; if ( VAR_1 != VAR_2 ) { METHOD_2 ( METHOD_3 ( ) ) ; } }
+public TYPE_1 < String > METHOD_1 ( ) { TYPE_2 < String > VAR_1 = TYPE_1 . METHOD_2 ( ) ; for ( TYPE_3 item : VAR_2 ) { VAR_1 . add ( item . METHOD_3 ( ) ) ; } return VAR_1 . build ( ) ; }
+protected void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( STRING_1 , this ) ; }
+public boolean METHOD_1 ( TYPE_1 file ) { return false ; }
+public VAR_1 ( String VAR_2 , int VAR_3 ) { VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; }
+public VAR_1 ( TYPE_1 < ? > list ) { super ( list ) ; VAR_2 = list ; }
+public int METHOD_1 ( TYPE_1 VAR_1 ) { if ( VAR_2 == VAR_3 ) { if ( VAR_4 ) { TYPE_2 . METHOD_2 ( VAR_5 , STRING_1 ) ; } return VAR_6 ; } VAR_2 = VAR_3 ; return METHOD_3 ( VAR_1 , true ) ; }
+public static boolean METHOD_1 ( TYPE_1 VAR_1 ) { String VAR_2 = VAR_1 . getName ( ) ; return VAR_2 . startsWith ( VAR_3 ) ; }
+public VAR_1 ( TYPE_1 < TYPE_2 > VAR_2 ) { this . VAR_2 = VAR_2 ; this . VAR_3 = false ; }
+public TYPE_1 METHOD_1 ( String VAR_1 ) { long VAR_2 = TYPE_2 . METHOD_2 ( VAR_3 ) ; TYPE_2 . METHOD_3 ( VAR_2 , VAR_1 ) ; return new TYPE_1 ( VAR_2 ) ; }
+public void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( VAR_1 , null ) ; if ( ! TYPE_2 . METHOD_3 ( VAR_2 ) ) { TYPE_1 . METHOD_4 ( new TYPE_3 ( VAR_2 ) ) ; } }
+private boolean METHOD_1 ( TYPE_1 < TYPE_2 > VAR_1 ) { for ( TYPE_2 VAR_2 : VAR_1 ) { if ( VAR_2 instanceof TYPE_3 && ( ( ( TYPE_3 ) VAR_2 ) . METHOD_2 ( ) == VAR_3 ) ) { return true ; } } return false ; }
+public boolean METHOD_1 ( String VAR_1 , String fileName ) { if ( VAR_1 == null || fileName == null ) return false ; return VAR_2 . METHOD_2 ( VAR_1 , fileName ) ; }
+public TYPE_1 METHOD_1 ( String VAR_1 , int VAR_2 ) { if ( VAR_1 == null ) { throw new TYPE_2 ( STRING_1 ) ; } synchronized ( VAR_3 ) { return VAR_3 . METHOD_2 ( VAR_1 , VAR_2 ) ; } }
+public TYPE_1 < TYPE_2 > METHOD_1 ( ) { synchronized ( VAR_1 ) { TYPE_1 < TYPE_2 > VAR_2 = new TYPE_3 ( ) ; VAR_2 . METHOD_2 ( VAR_1 ) ; return TYPE_4 . METHOD_3 ( VAR_2 ) ; } }
+public VAR_1 ( TYPE_1 context ) { TYPE_2 b = TYPE_3 . METHOD_1 ( VAR_2 ) ; METHOD_2 ( b , STRING_1 ) ; VAR_3 = METHOD_2 ( context , STRING_2 ) ; VAR_4 = TYPE_4 . METHOD_3 ( b ) ; }
+public TYPE_1 METHOD_1 ( ) { TYPE_1 VAR_1 = new TYPE_1 ( ) ; for ( double value : VAR_2 ) { VAR_1 . METHOD_2 ( value ) ; } return VAR_1 ; }
+public VAR_1 ( TYPE_1 VAR_2 , int VAR_3 ) { assert VAR_3 != VAR_4 ; this . VAR_2 = VAR_2 ; this . VAR_3 = VAR_3 ; }
+public VAR_1 ( TYPE_1 context , TYPE_2 VAR_2 ) { super ( context ) ; VAR_3 = new TYPE_3 ( ) ; VAR_4 . METHOD_1 ( VAR_3 ) ; VAR_5 = VAR_2 ; }
+public int METHOD_1 ( ) { if ( METHOD_2 ( ) ) { return INT_1 ; } return 1 ; }
+public VAR_1 ( TYPE_1 VAR_2 , String VAR_3 ) { VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; }
+public int [ ] METHOD_1 ( int VAR_1 ) { if ( METHOD_2 ( VAR_1 ) ) { return null ; } return VAR_2 [ VAR_1 ] ; }
+public void METHOD_1 ( String VAR_1 ) { TYPE_1 < String > VAR_2 = TYPE_1 . METHOD_2 ( VAR_3 , VAR_4 ) ; METHOD_3 ( VAR_2 . contains ( VAR_1 ) , STRING_1 , VAR_1 ) ; VAR_5 = VAR_1 ; }
+public TYPE_1 METHOD_1 ( ) { return new TYPE_1 ( this ) ; }
+public VAR_1 ( TYPE_1 view ) { VAR_2 = view ; }
+public VAR_1 ( String VAR_2 , byte VAR_3 ) { this . VAR_2 = VAR_2 ; this . VAR_3 = VAR_3 ; }
+public static TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) { if ( TYPE_3 . METHOD_2 ( VAR_1 ) != null ) { return TYPE_4 . get ( ) ; } return null ; }
+public String METHOD_1 ( TYPE_1 value ) { return null ; }
+public static void METHOD_1 ( ) { try { int VAR_1 = METHOD_2 ( ) ; VAR_2 = TYPE_1 . METHOD_3 ( VAR_3 ) ; VAR_4 = new TYPE_2 ( VAR_2 , VAR_1 ) ; } catch ( TYPE_3 VAR_5 ) { } }
+public TYPE_1 METHOD_1 ( TYPE_2 < ? extends TYPE_3 > VAR_1 , String VAR_2 , TYPE_4 [ ] VAR_3 ) { return new TYPE_5 ( VAR_1 , VAR_2 , VAR_3 ) ; }
+public void METHOD_1 ( String VAR_1 , TYPE_1 VAR_2 ) { METHOD_2 ( STRING_1 + VAR_1 ) ; }
+private VAR_1 ( TYPE_1 VAR_2 ) { VAR_3 = VAR_2 . METHOD_1 ( ) ; int VAR_4 = VAR_2 . METHOD_2 ( ) ; VAR_5 = new byte [ VAR_4 ] ; VAR_2 . METHOD_3 ( VAR_5 ) ; VAR_6 = VAR_2 . METHOD_2 ( ) ; return ; }
+public void METHOD_1 ( ) { int VAR_1 ; VAR_1 = VAR_2 + VAR_3 + VAR_4 ; VAR_5 . METHOD_2 ( VAR_6 , STRING_1 , VAR_1 , VAR_7 , VAR_8 . METHOD_3 ( VAR_9 ) ) ; }
+public void METHOD_1 ( ) { TYPE_1 VAR_1 = new TYPE_1 ( context ) ; VAR_1 . METHOD_2 ( VAR_2 ) ; METHOD_3 ( METHOD_4 ( VAR_3 ) . METHOD_5 ( VAR_1 ) ) ; }
+public boolean METHOD_1 ( ) { if ( VAR_1 . METHOD_2 ( ) . equals ( STRING_1 ) ) { return VAR_2 . METHOD_3 ( ) . METHOD_4 ( ) ; } else { return false ; } }
+public void METHOD_1 ( ) { METHOD_2 ( ) ; TYPE_1 . METHOD_3 ( VAR_1 ) ; TYPE_2 . METHOD_4 ( VAR_1 ) . METHOD_5 ( ) ; METHOD_6 ( ) ; }
+private static boolean METHOD_1 ( String name , TYPE_1 VAR_1 ) { synchronized ( VAR_2 ) { VAR_2 . add ( VAR_1 ) ; } return true ; }
+public TYPE_1 METHOD_1 ( TYPE_2 < String , ? extends TYPE_3 > VAR_1 ) { VAR_2 . METHOD_2 ( VAR_1 ) ; return ( TYPE_1 ) this ; }
+public VAR_1 ( String VAR_2 , String VAR_3 ) { super ( VAR_3 , STRING_1 + VAR_3 , VAR_4 ) ; VAR_5 = VAR_2 ; VAR_6 = VAR_3 ; }
+private TYPE_1 METHOD_1 ( ) { return VAR_1 ; }
+private static boolean METHOD_1 ( TYPE_1 VAR_1 ) { return VAR_1 instanceof TYPE_2 || VAR_1 . getClass ( ) . METHOD_2 ( ) . equals ( STRING_1 ) ; }
+public VAR_1 ( TYPE_1 VAR_2 ) { this . VAR_2 = VAR_2 ; METHOD_1 ( ) ; }
+private long METHOD_1 ( boolean VAR_1 ) { return VAR_1 ? VAR_2 . METHOD_2 ( ) : VAR_3 . METHOD_3 ( ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { VAR_2 . METHOD_1 ( VAR_1 ) ; VAR_3 . METHOD_1 ( VAR_1 ) ; }
+public void METHOD_1 ( ) { VAR_1 . METHOD_2 ( ! VAR_2 . METHOD_3 ( ) ) ; VAR_3 . METHOD_2 ( VAR_2 . METHOD_3 ( ) ) ; METHOD_4 ( ) ; }
+public static boolean METHOD_1 ( TYPE_1 expr ) { TYPE_2 VAR_1 = expr . METHOD_2 ( ) ; return ( VAR_1 instanceof TYPE_3 ) && ( ( ( TYPE_3 ) VAR_1 ) . METHOD_3 ( ) == expr ) ; }
+private boolean METHOD_1 ( ) { if ( ! TYPE_1 . get ( STRING_1 ) . equals ( STRING_2 ) ) { return false ; } return VAR_1 && VAR_2 ; }
+private void METHOD_1 ( ) { VAR_1 . METHOD_2 ( this ) ; VAR_1 . METHOD_3 ( this ) ; }
+public String METHOD_1 ( String data ) { return data ; }
+private static TYPE_1 METHOD_1 ( ) { try { return TYPE_1 . METHOD_2 ( STRING_1 , STRING_2 ) ; } catch ( TYPE_2 VAR_1 ) { return null ; } }
+public void METHOD_1 ( String VAR_1 , TYPE_1 VAR_2 ) { synchronized ( VAR_3 ) { if ( VAR_4 ) METHOD_2 ( STRING_1 + VAR_1 ) ; VAR_5 . METHOD_1 ( VAR_1 , VAR_2 ) ; } }
+public void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( VAR_1 . METHOD_3 ( ) , VAR_1 . METHOD_4 ( ) , VAR_2 , STRING_1 , VAR_3 ) ; if ( VAR_4 != null ) { VAR_4 . METHOD_1 ( ) ; } }
+private boolean METHOD_1 ( ) { try { METHOD_2 ( ) ; METHOD_3 ( VAR_1 ) ; VAR_2 . METHOD_4 ( VAR_3 ) ; } catch ( TYPE_1 | TYPE_2 | TYPE_3 VAR_4 ) { METHOD_5 ( STRING_1 , VAR_4 ) ; return false ; } return true ; }
+public void METHOD_1 ( ) { VAR_1 . METHOD_2 ( 0L ) ; VAR_1 . METHOD_3 ( VAR_2 , INT_1 ) ; }
+public void METHOD_1 ( ) { if ( ! ( VAR_1 instanceof TYPE_1 ) ) { super . METHOD_1 ( ) ; } }
+public String METHOD_1 ( String VAR_1 ) { return VAR_2 . get ( VAR_1 ) ; }
+public String METHOD_1 ( ) { return STRING_1 + VAR_1 . METHOD_2 ( ) + STRING_2 + VAR_2 + STRING_3 + node . getName ( ) + STRING_4 + VAR_3 + STRING_5 ; }
+private boolean METHOD_1 ( boolean VAR_1 ) { final String VAR_2 = STRING_1 ; if ( ! METHOD_2 ( VAR_2 ) ) return false ; TYPE_1 status = VAR_3 . METHOD_1 ( VAR_1 ) ; return METHOD_3 ( status , VAR_2 ) ; }
+public TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 VAR_2 ) { TYPE_1 VAR_3 = VAR_2 . METHOD_2 ( ) ; if ( VAR_1 . get ( VAR_4 ) ) { VAR_3 . add ( VAR_5 class ) ; } return VAR_3 ; }
+public boolean METHOD_1 ( ) { if ( VAR_1 . METHOD_2 ( ) . equals ( STRING_1 ) ) { return VAR_2 . METHOD_3 ( ) . METHOD_4 ( ) ; } else { return false ; } }
+public VAR_1 ( TYPE_1 VAR_2 ) { this . VAR_3 = VAR_2 ; METHOD_1 ( ) ; }
+public VAR_1 ( TYPE_1 VAR_2 ) { VAR_3 = METHOD_1 ( ) ; if ( TYPE_2 . METHOD_2 ( STRING_1 ) != null ) { VAR_2 = VAR_4 ; } VAR_5 = VAR_3 == null ? VAR_4 : VAR_2 ; }
+public void METHOD_1 ( String message ) { }
+private void METHOD_1 ( ) { VAR_1 = false ; VAR_2 = null ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { if ( VAR_2 . METHOD_2 ( ) . METHOD_3 ( ) == null ) { TYPE_2 . METHOD_4 ( VAR_2 , - 1 ) ; } }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 VAR_3 ) { super ( TYPE_3 . METHOD_1 ( STRING_1 ) , TYPE_3 . METHOD_1 ( STRING_2 ) , null , VAR_3 ) ; VAR_4 = VAR_2 ; METHOD_2 ( VAR_5 ) ; }
+public void METHOD_1 ( ) { try { METHOD_2 ( VAR_1 + VAR_2 , VAR_3 . METHOD_3 ( ) . METHOD_4 ( ) , message != null ? message + STRING_1 : STRING_2 ) ; } finally { METHOD_5 ( VAR_4 . METHOD_6 ( ) ) ; } }
+public static long METHOD_1 ( boolean VAR_1 ) { if ( VAR_2 ) { throw new TYPE_1 ( ) ; } long VAR_3 = VAR_4 ; VAR_5 = ( double ) VAR_3 ; return VAR_3 ; }
+public byte [ ] METHOD_1 ( ) { final byte [ ] result = new byte [ METHOD_2 ( ) ] ; METHOD_1 ( result , 0 , result . length ) ; return result ; }
+public static TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) { if ( TYPE_3 . METHOD_2 ( VAR_1 ) != null ) { return TYPE_4 . get ( ) ; } return null ; }
+protected void METHOD_1 ( ) { VAR_1 . add ( VAR_2 ) ; }
+private boolean METHOD_1 ( ) { long VAR_1 = VAR_2 . get ( ) ; METHOD_2 ( VAR_3 ) ; return ! ( METHOD_3 ( ) && VAR_2 . get ( ) == VAR_1 && VAR_4 != null ) ; }
+public boolean equals ( TYPE_1 obj ) { return obj instanceof TYPE_2 && ( ( TYPE_2 ) obj ) . VAR_1 . equals ( VAR_1 ) && ( ( TYPE_2 ) obj ) . VAR_2 . equals ( VAR_2 ) ; }
+public TYPE_1 METHOD_1 ( ) { return null ; }
+public VAR_1 ( String VAR_2 , String id ) { this . METHOD_1 ( VAR_2 ) ; this . METHOD_2 ( id ) ; }
+public void METHOD_1 ( ) { try { new TYPE_1 ( ) . METHOD_2 ( ) ; fail ( STRING_1 ) ; } catch ( TYPE_2 t ) { } }
+protected void METHOD_1 ( ) { if ( VAR_1 != null ) { if ( VAR_1 . METHOD_2 ( ) != - 1 && VAR_1 . METHOD_3 ( ) == null && VAR_2 == false ) { VAR_3 . METHOD_4 ( null ) ; } } }
+public void METHOD_1 ( TYPE_1 i ) { VAR_1 = i ; }
+private void METHOD_1 ( final String VAR_1 , TYPE_1 error ) { TYPE_2 VAR_2 = VAR_3 . remove ( VAR_1 ) ; if ( VAR_2 != null ) { METHOD_2 ( VAR_1 , VAR_2 , error ) ; } }
+public boolean METHOD_1 ( int VAR_1 ) { if ( VAR_1 < VAR_2 || VAR_1 > VAR_3 ) { return false ; } if ( VAR_1 % VAR_4 != 0 ) { return false ; } return true ; }
+TYPE_1 METHOD_1 ( ) { final TYPE_1 VAR_1 = TYPE_2 . METHOD_2 ( ) ; if ( VAR_1 == null ) { throw new TYPE_3 ( STRING_1 ) . METHOD_3 ( ) ; } return VAR_1 ; }
+public VAR_1 ( TYPE_1 context , TYPE_2 VAR_2 , TYPE_3 VAR_3 ) { super ( context , VAR_3 ) ; VAR_4 = context ; VAR_5 = new TYPE_4 ( ) ; VAR_6 = VAR_2 ; }
+public VAR_1 ( TYPE_1 VAR_2 , boolean VAR_3 ) { super ( STRING_1 + ( VAR_3 ? STRING_2 : STRING_3 ) ) ; VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; }
+public void METHOD_1 ( byte [ ] data ) { if ( METHOD_2 ( ) ) { throw new TYPE_1 ( STRING_1 ) ; } VAR_1 = data ; }
+static TYPE_1 METHOD_1 ( String VAR_1 , TYPE_2 VAR_2 , TYPE_3 VAR_3 ) { TYPE_1 VAR_4 = new TYPE_1 ( VAR_2 , VAR_3 ) ; VAR_4 . message = VAR_1 ; VAR_4 . state = VAR_5 ; VAR_6 = true ; return VAR_4 ; }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 VAR_3 , String title , final boolean VAR_4 ) { super ( VAR_3 , title , true , new TYPE_3 ( ) { public boolean METHOD_1 ( ) { return VAR_4 ; } public void METHOD_2 ( ) { } } ) ; VAR_5 = VAR_2 ; VAR_6 = VAR_4 ; }
+private boolean METHOD_1 ( ) { int VAR_1 = TYPE_1 . METHOD_2 ( STRING_1 ) ; if ( VAR_1 && VAR_1 >= VAR_2 ) { return ! METHOD_3 ( ) ; } return false ; }
+public void METHOD_1 ( int VAR_1 ) { for ( int VAR_2 = 0 ; VAR_2 < VAR_1 ; ++ VAR_2 ) { String VAR_3 = STRING_1 ; } }
+public static int METHOD_1 ( ) { return INT_1 ; }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 target ) { super ( VAR_2 , target . METHOD_1 ( ) ) ; METHOD_2 ( new TYPE_3 ( new TYPE_4 ( ) ) ) ; }
+public void METHOD_1 ( TYPE_1 value ) { VAR_1 . METHOD_2 ( FLOAT_1 - ( value / FLOAT_2 ) ) ; VAR_1 . METHOD_3 ( ) ; }
+protected TYPE_1 METHOD_1 ( ) { TYPE_2 VAR_1 = new TYPE_2 ( METHOD_2 ( ) , STRING_1 ) ; assertTrue ( STRING_2 , VAR_1 . METHOD_3 ( ) ) ; return TYPE_3 . METHOD_4 ( VAR_1 . METHOD_5 ( ) , VAR_2 ) ; }
+private VAR_1 ( TYPE_1 VAR_2 ) { TYPE_2 VAR_3 = VAR_4 . METHOD_1 ( ) ; if ( VAR_3 == null || VAR_3 instanceof TYPE_3 ) { this . VAR_3 = null ; } else { this . VAR_3 = VAR_3 ; } }
+public TYPE_1 < TYPE_2 > METHOD_1 ( ) { return VAR_1 ; }
+public void METHOD_1 ( ) { VAR_1 . METHOD_2 ( ) ; TYPE_1 < String > VAR_2 = METHOD_3 ( VAR_3 ) ; TYPE_1 < String > VAR_4 = METHOD_4 ( VAR_5 ) ; assertTrue ( VAR_1 . METHOD_5 ( VAR_2 , VAR_4 ) ) ; }
+public VAR_1 ( TYPE_1 VAR_2 , boolean VAR_3 ) { VAR_4 = VAR_2 . METHOD_1 ( ) ; if ( VAR_3 ) { METHOD_2 ( ) ; } }
+public VAR_1 ( TYPE_1 VAR_2 ) { VAR_3 = METHOD_1 ( ) ; if ( TYPE_2 . METHOD_2 ( STRING_1 ) != null ) { VAR_2 = VAR_4 ; } VAR_5 = VAR_3 == null ? VAR_4 : VAR_2 ; }
+public static boolean METHOD_1 ( String path ) { try { TYPE_1 VAR_1 = VAR_2 . open ( path , VAR_3 , 0 ) ; VAR_2 . METHOD_2 ( VAR_1 ) ; return true ; } catch ( TYPE_2 VAR_4 ) { return false ; } }
+protected boolean METHOD_1 ( TYPE_1 path , TYPE_2 VAR_1 ) { TYPE_3 VAR_2 = VAR_1 . METHOD_2 ( ) ; if ( VAR_2 == null ) { return false ; } TYPE_1 VAR_3 = new TYPE_1 ( TYPE_4 . METHOD_3 ( VAR_2 . METHOD_4 ( ) ) ) ; return TYPE_4 . METHOD_5 ( VAR_3 , path , false ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { if ( TYPE_2 . METHOD_2 ( VAR_1 ) ) { VAR_1 . METHOD_3 ( VAR_2 , VAR_3 ) ; TYPE_3 . METHOD_4 ( ) . METHOD_5 ( VAR_1 , true , true , null ) ; } }
+private boolean METHOD_1 ( int VAR_1 ) { if ( VAR_1 < 0 || VAR_1 >= VAR_2 . length ) return true ; return false ; }
+static TYPE_1 METHOD_1 ( TYPE_2 context , long VAR_1 ) { TYPE_1 VAR_2 = new TYPE_1 ( context , VAR_3 class ) ; VAR_2 . METHOD_2 ( VAR_4 ) ; VAR_2 . METHOD_3 ( VAR_5 , VAR_1 ) ; return VAR_2 ; }
+protected void METHOD_1 ( ) { if ( VAR_1 != null ) { VAR_1 . METHOD_2 ( ) ; } if ( VAR_2 != null ) { VAR_2 . METHOD_2 ( ) ; } METHOD_3 ( VAR_3 ) ; }
+public String toString ( ) { return super . toString ( ) ; }
+private void METHOD_1 ( ) { try { VAR_1 = TYPE_1 . METHOD_2 ( VAR_2 ) ; } catch ( TYPE_2 VAR_3 ) { VAR_1 = null ; } }
+public VAR_1 ( String VAR_2 , int VAR_3 ) { super ( ) ; VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; }
+public void METHOD_1 ( int height ) { if ( height < 0 && VAR_1 != height && VAR_2 != height ) { throw new TYPE_1 ( STRING_1 + height ) ; } VAR_3 = height ; }
+private VAR_1 ( TYPE_1 b ) { VAR_2 = VAR_3 ; VAR_4 = VAR_5 ; VAR_6 = VAR_7 ; VAR_8 = VAR_9 ; VAR_10 = VAR_11 ; VAR_12 = VAR_13 ; VAR_14 = VAR_15 ; }
+protected VAR_1 ( TYPE_1 VAR_2 ) { if ( VAR_2 instanceof TYPE_2 ) { VAR_3 = ( TYPE_2 ) VAR_2 ; VAR_4 = true ; this . parameters = VAR_5 ; } }
+public void METHOD_1 ( TYPE_1 context ) { VAR_1 = false ; VAR_2 . METHOD_2 ( ) ; }
+private void METHOD_1 ( ) { METHOD_2 ( ) ; if ( ! VAR_1 . METHOD_3 ( ) ) { throw new TYPE_1 ( STRING_1 ) ; } }
+public boolean METHOD_1 ( TYPE_1 file ) { return true ; }
+protected void METHOD_1 ( TYPE_1 VAR_1 ) { super . METHOD_1 ( VAR_1 ) ; METHOD_2 ( VAR_2 ) ; }
+private boolean METHOD_1 ( TYPE_1 VAR_1 ) { for ( TYPE_2 VAR_2 : VAR_1 . METHOD_2 ( ) ) { if ( VAR_2 instanceof TYPE_3 && ( ( ( TYPE_3 ) VAR_2 ) . METHOD_3 ( ) == VAR_3 ) ) { return true ; } } return false ; }
+public static String METHOD_1 ( String VAR_1 ) { if ( VAR_1 == null || VAR_1 . isEmpty ( ) ) { return null ; } VAR_1 = VAR_1 . toLowerCase ( ) ; return VAR_2 . get ( VAR_1 ) ; }
+public void METHOD_1 ( String VAR_1 ) { TYPE_1 VAR_2 = METHOD_2 ( STRING_1 ) ; VAR_3 . METHOD_3 ( VAR_2 ) ; METHOD_4 ( VAR_1 ) ; }
+public void METHOD_1 ( TYPE_1 context , TYPE_2 attribute ) { String VAR_1 = attribute . getValue ( ) ; if ( VAR_1 != null && VAR_1 . equals ( VAR_2 ) ) { String message = STRING_1 ; context . METHOD_2 ( VAR_3 , context . METHOD_3 ( attribute ) , message , null ) ; } }
+public void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( VAR_1 ) ; }
+public VAR_1 ( String path , String VAR_2 ) { VAR_3 = path ; VAR_4 = VAR_2 ; }
+public void METHOD_1 ( ) { TYPE_1 . assertEquals ( INT_1 , TYPE_2 . METHOD_2 ( INT_1 , - 1 ) ) ; }
+private void METHOD_1 ( int type ) { VAR_1 . METHOD_2 ( type ) ; }
+protected VAR_1 ( TYPE_1 VAR_2 , TYPE_1 VAR_3 , String name ) { VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; VAR_6 = name ; }
+public static void METHOD_1 ( TYPE_1 file , String VAR_1 ) { try { TYPE_2 writer = new TYPE_2 ( new TYPE_3 ( file ) ) ; writer.write ( VAR_1 ) ; writer . METHOD_2 ( ) ; } catch ( TYPE_4 VAR_2 ) { TYPE_5 . METHOD_3 ( VAR_2 ) ; } }
+private boolean METHOD_1 ( ) { TYPE_1 VAR_1 = this . METHOD_2 ( ) ; return ( VAR_1 != null && VAR_1 . METHOD_3 ( STRING_1 ) ) ; }
+<ERROR>
+public static boolean METHOD_1 ( int state , boolean VAR_1 ) { switch ( state ) { case VAR_2 : case VAR_3 : case VAR_4 : return true ; case VAR_5 : return VAR_1 ; default : return false ; } }
+public static TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 VAR_2 , TYPE_4 VAR_3 ) { return ( VAR_1 . METHOD_2 ( ) . equals ( VAR_4 ) ? new TYPE_5 ( VAR_2 , VAR_3 ) : new TYPE_6 ( VAR_1 , VAR_2 , VAR_3 ) ) ; }
+protected void METHOD_1 ( ) { if ( VAR_1 != null && VAR_2 == true ) { VAR_3 . METHOD_2 ( VAR_1 ) ; } try { METHOD_3 ( ) ; } catch ( TYPE_1 VAR_4 ) { } }
+protected String METHOD_1 ( String VAR_1 ) { return super . METHOD_1 ( VAR_1 ) + STRING_1 ; }
+public VAR_1 ( TYPE_1 VAR_2 , String VAR_3 ) { this . VAR_4 = VAR_3 ; VAR_5 = VAR_3 . substring ( VAR_3 . METHOD_1 ( CHAR_1 ) + 1 ) ; VAR_6 = new TYPE_2 ( VAR_2 , VAR_3 ) ; }
+public TYPE_1 set ( String VAR_1 , String key , String value ) { VAR_2 . put ( ( VAR_1 != null ? ( VAR_1 + STRING_1 ) : STRING_2 ) + key , value ) ; return this ; }
+public static int METHOD_1 ( int x , int y ) { int VAR_1 ; if ( METHOD_2 ( ) == false ) { VAR_1 = x + y ; } else { VAR_1 = x - y ; } return VAR_1 ; }
+public void METHOD_1 ( TYPE_1 < String , TYPE_2 > VAR_1 ) { synchronized ( VAR_2 ) { VAR_2 . METHOD_2 ( ) ; VAR_2 . METHOD_3 ( VAR_1 ) ; } }
+public void METHOD_1 ( ) { try { TYPE_1 . METHOD_2 ( STRING_1 ) ; fail ( STRING_2 ) ; } catch ( TYPE_2 VAR_1 ) { } }
+private boolean VAR_1 = false ; public boolean METHOD_1 ( ) { return VAR_1 ; }
+private static boolean METHOD_1 ( ) { return TYPE_1 . METHOD_2 ( ) . METHOD_3 ( ) . getBoolean ( VAR_1 , true ) ; }
+private static void METHOD_1 ( TYPE_1 context , boolean show ) { TYPE_2 intent = new TYPE_2 ( VAR_1 ) ; intent . METHOD_2 ( VAR_2 , show ) ; context . METHOD_3 ( intent ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { METHOD_2 ( VAR_1 ) ; TYPE_2 < String > VAR_2 = new TYPE_2 < String > ( 1 ) ; VAR_2 . add ( VAR_3 . METHOD_3 ( ) . VAR_4 ) ; VAR_3 . METHOD_4 ( VAR_2 ) ; }
+public static void METHOD_1 ( ) { synchronized ( VAR_1 ) { VAR_1 . METHOD_2 ( ) ; } }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 < TYPE_3 > VAR_3 ) { VAR_4 = VAR_2 . METHOD_1 ( VAR_5 ) ; VAR_6 = VAR_3 ; VAR_7 = new TYPE_4 < > ( ) ; VAR_8 = METHOD_2 ( ) ; VAR_9 = 0 ; }
+public void METHOD_1 ( long VAR_1 , int type , int VAR_2 ) { if ( VAR_3 ) { VAR_4 . METHOD_2 ( STRING_1 + TYPE_1 . toString ( VAR_5 , INT_1 ) + STRING_2 ) ; } this . VAR_6 = true ; }
+public void METHOD_1 ( ) { TYPE_1 < TYPE_2 > VAR_1 = VAR_2 class ; try { VAR_1 . METHOD_2 ( VAR_3 class , VAR_4 class ) ; } catch ( TYPE_3 VAR_5 ) { throw new TYPE_4 ( VAR_5 ) ; } }
+public TYPE_1 type ( final String text ) { TYPE_2 VAR_1 = METHOD_1 ( ) ; if ( VAR_1 != null ) { VAR_2 . METHOD_2 ( text ) ; } return this ; }
+public void METHOD_1 ( String VAR_1 , String VAR_2 , TYPE_1 VAR_3 ) { synchronized ( VAR_4 ) { if ( VAR_5 ) METHOD_2 ( STRING_1 + VAR_1 + STRING_2 + VAR_2 ) ; VAR_6 . METHOD_3 ( VAR_1 , VAR_2 , VAR_7 , VAR_3 ) ; } }
+private static boolean METHOD_1 ( TYPE_1 VAR_1 ) { return VAR_1 instanceof TYPE_2 || METHOD_2 ( VAR_1 ) ; }
+public String METHOD_1 ( ) { return STRING_1 + TYPE_1 . METHOD_2 ( ) . getName ( VAR_1 ) + STRING_2 + METHOD_3 ( VAR_1 . getClass ( ) ) + STRING_3 + METHOD_3 ( VAR_2 ) ; }
+public void METHOD_1 ( TYPE_1 event ) { TYPE_2 . assertTrue ( STRING_1 , event . values [ 0 ] == FLOAT_1 ) ; VAR_1 . add ( METHOD_2 ( VAR_2 ) ) ; }
+public VAR_1 ( ) { super ( VAR_2 , STRING_1 , INT_1 , VAR_3 , STRING_2 ) ; }
+public boolean METHOD_1 ( TYPE_1 VAR_1 ) { VAR_2 . METHOD_2 ( VAR_3 , new TYPE_2 ( VAR_1 ) ) ; VAR_4 = true ; return true ; }
+public void METHOD_1 ( String VAR_1 , int status ) { METHOD_2 ( VAR_1 ) ; TYPE_1 VAR_2 = METHOD_3 ( VAR_1 ) ; if ( VAR_2 != null ) { synchronized ( VAR_3 ) { VAR_2 . status = status ; } } }
+public VAR_1 ( String filename ) { type = VAR_2 ; this . filename = filename ; }
+public void METHOD_1 ( ) { TYPE_1 VAR_1 = TYPE_1 . METHOD_2 ( ) ; if ( VAR_1 != null ) { VAR_1 . METHOD_3 ( VAR_2 , VAR_3 . get ( ) ) ; } super . METHOD_1 ( ) ; }
+<ERROR>
+public void METHOD_1 ( String param ) { VAR_1 = TYPE_1 . METHOD_2 ( param ) ; }
+public VAR_1 ( TYPE_1 VAR_2 , String VAR_3 ) { VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; }
+public VAR_1 ( long id ) { this . id = id ; }
+private static boolean METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 VAR_2 = TYPE_3 . METHOD_2 ( VAR_1 ) ; if ( VAR_2 != null ) { return VAR_2 . compareTo ( TYPE_2 . METHOD_3 ( VAR_3 ) ) >= 0 ; } else { return false ; } }
+public TYPE_1 METHOD_1 ( int VAR_1 , String VAR_2 ) { throw new TYPE_2 ( STRING_1 ) ; }
+private void METHOD_1 ( TYPE_1 < TYPE_2 > VAR_1 ) { for ( TYPE_3 VAR_2 : VAR_3 ) { VAR_2 . METHOD_2 ( VAR_1 ) ; } }
+public static TYPE_1 METHOD_1 ( String name , String VAR_1 , TYPE_2 < TYPE_3 > VAR_2 ) { return new TYPE_1 ( name , VAR_1 , VAR_2 ) ; }
+public void METHOD_1 ( TYPE_1 context , TYPE_2 intent ) { if ( TYPE_3 . equals ( intent . METHOD_2 ( ) ) ) { VAR_1 . METHOD_3 ( ( ) - > METHOD_4 ( intent . METHOD_5 ( VAR_2 , 0 ) ) ) ; } }
+private static String METHOD_1 ( String VAR_1 ) { int VAR_2 = VAR_1 . METHOD_2 ( STRING_1 ) ; if ( VAR_2 != - 1 ) { return VAR_1 . substring ( 0 , VAR_2 ) ; } return VAR_1 ; }
+private void METHOD_1 ( String VAR_1 ) { try { TYPE_1 VAR_2 = new TYPE_1 ( VAR_1 ) ; fail ( STRING_1 + VAR_3 class . getName ( ) + STRING_2 ) ; } catch ( TYPE_2 VAR_4 ) { } }
+public float METHOD_1 ( ) { return VAR_1 ; }
+private boolean METHOD_1 ( ) { if ( ! TYPE_1 . get ( STRING_1 ) . equals ( STRING_2 ) ) { return false ; } return VAR_1 && VAR_2 ; }
+private static void METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 VAR_2 = null ; try { VAR_1 . METHOD_2 ( ) ; } catch ( TYPE_2 VAR_3 ) { VAR_2 = VAR_3 ; } assertTrue ( VAR_2 instanceof TYPE_3 ) ; }
+public VAR_1 ( TYPE_1 VAR_2 ) { VAR_3 = VAR_2 ; }
+public void METHOD_1 ( ) { METHOD_2 ( STRING_1 , INT_1 ) ; METHOD_2 ( STRING_2 , INT_1 ) ; }
+<ERROR>
+void METHOD_1 ( TYPE_1 VAR_1 ) { if ( VAR_2 . remove ( VAR_1 ) ) { VAR_3 . METHOD_2 ( new TYPE_2 ( null , VAR_1 , null ) ) ; } }
+static void METHOD_1 ( TYPE_1 < ? extends TYPE_2 > VAR_1 , TYPE_2 message , TYPE_3 out ) { out . METHOD_2 ( VAR_1 . getName ( ) ) ; out . METHOD_3 ( TYPE_2 . METHOD_4 ( message ) ) ; }
+public void METHOD_1 ( TYPE_1 [ ] VAR_1 ) { if ( VAR_1 == null ) { throw new TYPE_2 ( ) ; } VAR_2 . METHOD_1 ( VAR_1 ) ; }
+public String METHOD_1 ( String key ) { TYPE_1 VAR_1 = VAR_2 . get ( key ) ; assert VAR_1 != null ; TYPE_2 item = VAR_1 . METHOD_2 ( ) ; return item == null ? STRING_1 : METHOD_1 ( item ) ; }
+public byte [ ] METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 VAR_2 = ( TYPE_2 ) VAR_1 ; return VAR_2 . METHOD_1 ( ) ; }
+public VAR_1 ( TYPE_1 VAR_2 ) { super ( VAR_2 ) ; }
+public void METHOD_1 ( int state , String VAR_1 ) { if ( VAR_2 ) TYPE_1 . METHOD_2 ( VAR_3 , STRING_1 + STRING_2 + state ) ; if ( state == VAR_4 ) { VAR_5 = false ; } }
+public void METHOD_1 ( ) { }
+public VAR_1 ( TYPE_1 VAR_2 , String VAR_3 , int VAR_4 , TYPE_2 VAR_5 ) { VAR_6 = VAR_2 ; VAR_7 = VAR_3 ; VAR_8 = VAR_2 . METHOD_1 ( VAR_3 ) . METHOD_2 ( ) ; VAR_9 = VAR_4 ; VAR_10 = VAR_5 ; }
+public void METHOD_1 ( ) { METHOD_2 ( STRING_1 ) ; }
+private boolean METHOD_1 ( String VAR_1 ) { return VAR_1 != null && TYPE_1 . contains ( VAR_1 ) ; }
+private static TYPE_1 METHOD_1 ( ) { TYPE_1 p = new TYPE_2 ( VAR_1 ) ; p . put ( STRING_1 , VAR_2 . METHOD_2 ( ) . VAR_3 ) ; p . put ( STRING_2 , STRING_3 ) ; return p ; }
+public static boolean METHOD_1 ( TYPE_1 VAR_1 ) { return METHOD_1 ( VAR_1 . METHOD_2 ( ) ) ; }
+private VAR_1 ( long VAR_2 ) { VAR_3 = VAR_2 ; VAR_4 = false ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { super . METHOD_1 ( VAR_1 ) ; VAR_1 . METHOD_2 ( STRING_1 , VAR_2 ) ; VAR_1 . METHOD_2 ( STRING_2 , VAR_3 ) ; }
+protected void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( VAR_1 ) . METHOD_3 ( ) ; }
+private static TYPE_1 METHOD_1 ( TYPE_2 VAR_1 , TYPE_3 file ) { TYPE_4 < TYPE_1 > VAR_2 = TYPE_5 . METHOD_2 ( VAR_1 , file , VAR_1 . METHOD_3 ( ) ) . iterator ( ) ; return VAR_2 . METHOD_4 ( ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 , byte [ ] VAR_2 ) { TYPE_2 VAR_3 = ( TYPE_2 ) VAR_1 ; VAR_3 . METHOD_1 ( VAR_2 ) ; }
+public int METHOD_1 ( ) { return VAR_1 ; }
+public TYPE_1 METHOD_1 ( ) { return VAR_1 ; }
+public VAR_1 ( TYPE_1 VAR_2 ) { super ( VAR_2 ) ; }
+public static TYPE_1 METHOD_1 ( ) { if ( VAR_1 == null ) { return VAR_1 = new TYPE_1 ( ) ; } return VAR_1 ; }
+private static String METHOD_1 ( String name ) { if ( name == null || name . startsWith ( STRING_1 ) ) { return null ; } return name ; }
+static void METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 . METHOD_2 ( VAR_2 ) ; TYPE_2 . METHOD_2 ( VAR_3 , VAR_4 ) ; TYPE_2 . METHOD_2 ( VAR_5 , VAR_6 ) ; }
+private boolean METHOD_1 ( ) { TYPE_1 VAR_1 = ( TYPE_1 ) VAR_2 . getContext ( ) . METHOD_2 ( VAR_3 ) ; return VAR_1 . METHOD_3 ( ) ; }
+public String getName ( ) { if ( METHOD_1 ( ) == null ) { return null ; } return TYPE_1 . METHOD_2 ( METHOD_1 ( ) ) ; }
+public TYPE_1 METHOD_1 ( ) { return null ; }
+public static TYPE_1 METHOD_1 ( TYPE_2 VAR_1 ) { return TYPE_3 . METHOD_2 ( VAR_1 , VAR_2 class ) ; }
+public int METHOD_1 ( TYPE_1 msg ) { int key = VAR_1 . METHOD_2 ( ) ; synchronized ( VAR_2 ) { VAR_2 . put ( key , msg ) ; } return key ; }
+public void METHOD_1 ( TYPE_1 VAR_1 , TYPE_2 VAR_2 ) { TYPE_3 VAR_3 ; if ( VAR_1 == VAR_4 ) { VAR_3 = VAR_5 ; } else { VAR_3 = VAR_6 ; } VAR_7 . METHOD_2 ( VAR_3 , VAR_2 . METHOD_3 ( ) ) ; }
+public void METHOD_1 ( int VAR_1 ) { VAR_2 . METHOD_2 ( VAR_3 , TYPE_1 . toString ( VAR_1 ) ) ; }
+public static TYPE_1 METHOD_1 ( TYPE_2 context ) { TYPE_3 t = new TYPE_3 ( STRING_1 ) ; t . start ( ) ; return new TYPE_1 ( t . METHOD_2 ( ) , context ) ; }
+private VAR_1 ( TYPE_1 VAR_2 ) { this . VAR_3 = ! VAR_4 . getType ( ) . equals ( TYPE_2 . getType ( ) ) ; }
+public void METHOD_1 ( TYPE_1 i ) { VAR_1 = i ; }
+public int METHOD_1 ( ) { if ( ! METHOD_2 ( ) ) { throw new TYPE_1 ( STRING_1 ) ; } return VAR_1 ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 . METHOD_2 ( VAR_2 , STRING_1 ) ; }
+public static TYPE_1 < TYPE_2 > METHOD_1 ( ) { return METHOD_1 ( new String [ ] { STRING_1 } ) ; }
+private static byte [ ] METHOD_1 ( ) { try { return STRING_1 . METHOD_2 ( STRING_2 ) ; } catch ( TYPE_1 VAR_1 ) { throw new TYPE_2 ( VAR_1 ) ; } }
+<ERROR>
+public void METHOD_1 ( ) { METHOD_2 ( ) ; VAR_1 . METHOD_3 ( ) ; VAR_2 . start ( ) ; VAR_3 = true ; METHOD_4 ( VAR_3 ) ; VAR_3 = ! VAR_3 ; }
+private boolean METHOD_1 ( TYPE_1 < TYPE_2 > VAR_1 ) { for ( TYPE_2 VAR_2 : VAR_1 ) { if ( VAR_2 instanceof TYPE_3 && ( ( ( TYPE_3 ) VAR_2 ) . METHOD_2 ( ) == VAR_3 ) ) { return true ; } } return false ; }
+private static void METHOD_1 ( ) { TYPE_1 VAR_1 = new TYPE_1 ( STRING_1 ) ; while ( VAR_1 . list ( ) . length > 1 ) { try { TYPE_2 . METHOD_2 ( 1 ) ; } catch ( TYPE_3 VAR_2 ) { } } }
+private static boolean METHOD_1 ( TYPE_1 VAR_1 ) { TYPE_2 VAR_2 = TYPE_3 . METHOD_2 ( VAR_1 ) ; if ( VAR_2 != null ) { return VAR_2 . compareTo ( TYPE_2 . METHOD_3 ( VAR_3 ) ) >= 0 ; } else { return false ; } }
+public int METHOD_1 ( ) { int size = 0 ; TYPE_1 < TYPE_2 > VAR_1 = METHOD_2 ( ) ; while ( VAR_1 . METHOD_3 ( ) ) { size ++ ; VAR_1 . METHOD_4 ( ) ; } return size ; }
+public TYPE_1 METHOD_1 ( ) { return VAR_1 . METHOD_2 ( ) ; }
+private VAR_1 ( TYPE_1 VAR_2 , TYPE_2 value , TYPE_3 VAR_3 ) { VAR_4 = VAR_2 ; VAR_5 = value ; VAR_6 = VAR_3 ; }
+void METHOD_1 ( boolean VAR_1 ) { VAR_2 = VAR_1 ; METHOD_2 ( VAR_2 ) ; String text ; if ( VAR_2 ) { METHOD_3 ( ) ; text = STRING_1 ; } else { text = STRING_2 ; } METHOD_4 ( ) . setText ( text ) ; }
+public boolean METHOD_1 ( ) { return VAR_1 && VAR_2 == VAR_3 ; }
+public boolean METHOD_1 ( ) { return VAR_1 ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { if ( VAR_2 ) { throw new TYPE_2 ( STRING_1 + STRING_2 ) ; } this . VAR_3 = VAR_1 ; }
+<ERROR>
+public boolean METHOD_1 ( ) { return ! METHOD_2 ( METHOD_3 ( VAR_1 ) , VAR_2 . getText ( ) ) || ! METHOD_2 ( METHOD_3 ( VAR_3 ) , VAR_4 . getText ( ) ) ; }
+public void METHOD_1 ( String VAR_1 , TYPE_1 VAR_2 ) { METHOD_2 ( STRING_1 + VAR_1 + STRING_2 ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { VAR_2 . METHOD_2 ( VAR_1 , VAR_3 ) ; }
+public static int METHOD_1 ( int x , int y ) { int result ; if ( x <= y ) { result = INT_1 ; } else { while ( true ) ; } return result ; }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 VAR_3 , TYPE_3 VAR_4 ) { super ( STRING_1 , VAR_2 ) ; VAR_5 = VAR_3 ; VAR_6 = VAR_4 ; init ( ) ; }
+public void METHOD_1 ( String VAR_1 ) { if ( VAR_1 == null ) { VAR_2 = STRING_1 ; } VAR_2 = VAR_1 ; }
+public void METHOD_1 ( ) { TYPE_1 < TYPE_2 > VAR_1 = new TYPE_3 < > ( ) ; VAR_1 . METHOD_2 ( VAR_2 ) ; assertTrue ( VAR_1 . isEmpty ( ) ) ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { if ( VAR_1 == null ) { METHOD_2 ( null ) ; return ; } super . METHOD_1 ( VAR_1 ) ; }
+public void METHOD_1 ( ) { VAR_1 = null ; VAR_2 = null ; }
+public void METHOD_1 ( TYPE_1 < TYPE_2 > VAR_1 ) { VAR_2 . METHOD_1 ( new TYPE_3 ( ) { public void METHOD_2 ( ) { METHOD_3 ( VAR_1 ) ; } } ) ; }
+public static void main ( String [ ] args ) { try { VAR_1 class . METHOD_1 ( STRING_1 ) ; } catch ( TYPE_1 VAR_2 ) { } }
+private TYPE_1 METHOD_1 ( ) { if ( VAR_1 != null ) { try { return METHOD_2 ( VAR_1 ) . METHOD_3 ( VAR_2 , VAR_3 ) ; } catch ( TYPE_2 VAR_4 ) { } } return null ; }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 VAR_3 ) { VAR_4 = VAR_2 ; VAR_5 = VAR_3 ; init ( ) ; }
+private static void METHOD_1 ( TYPE_1 VAR_1 , String VAR_2 , String content ) { String VAR_3 = METHOD_2 ( VAR_1 . METHOD_3 ( ) + STRING_1 + VAR_2 ) ; assertTrue ( VAR_3 . contains ( content ) ) ; }
+public VAR_1 ( String name , TYPE_1 VAR_2 , TYPE_2 < TYPE_3 > VAR_3 , TYPE_1 VAR_4 ) { super ( VAR_2 , name ) ; this . VAR_3 = VAR_3 ; this . VAR_4 = VAR_4 ; }
+public void METHOD_1 ( ) { VAR_1 . METHOD_2 ( ! VAR_2 . METHOD_3 ( ) ) ; VAR_3 . METHOD_2 ( VAR_2 . METHOD_3 ( ) ) ; METHOD_4 ( ) ; }
+public void METHOD_1 ( ) { for ( String VAR_1 : VAR_2 ) { if ( ! VAR_3 . get ( ) ) { break ; } VAR_4 . METHOD_2 ( VAR_1 , false ) ; } }
+public void METHOD_1 ( ) { TYPE_1 . METHOD_2 ( new int [ 1 ] , 0 ) ; }
+public TYPE_1 METHOD_1 ( ) { return VAR_1 ; }
+public String METHOD_1 ( TYPE_1 VAR_1 ) { for ( TYPE_2 VAR_2 : VAR_3 ) { if ( VAR_2 . METHOD_2 ( ) == VAR_1 ) { return VAR_2 . METHOD_3 ( ) ; } } return null ; }
+public void METHOD_1 ( ) { TYPE_1 [ ] VAR_1 = VAR_2 . METHOD_2 ( ) ; for ( TYPE_1 VAR_3 : VAR_1 ) { if ( VAR_3 . METHOD_3 ( ) == VAR_4 ) { VAR_5 = VAR_3 ; break ; } } }
+protected static boolean METHOD_1 ( TYPE_1 [ ] [ ] VAR_1 , int VAR_2 ) { return VAR_1 != null && VAR_2 >= 0 && VAR_1 . length > VAR_2 ; }
+private boolean METHOD_1 ( int VAR_1 ) { if ( VAR_1 < 0 || VAR_1 >= VAR_2 . length ) return true ; return false ; }
+public void METHOD_1 ( TYPE_1 VAR_1 ) { if ( VAR_1 == VAR_2 ) { VAR_2 = null ; } }
+public boolean METHOD_1 ( TYPE_1 message ) { if ( message != null ) { TYPE_2 . METHOD_2 ( this , VAR_1 , VAR_2 ) . show ( ) ; if ( VAR_1 != VAR_3 ) { METHOD_3 ( VAR_1 ) ; } } return true ; }
+public VAR_1 ( TYPE_1 VAR_2 , TYPE_2 < TYPE_3 > VAR_3 , TYPE_4 VAR_4 , TYPE_5 type ) { super ( VAR_2 , VAR_3 , VAR_4 ) ; VAR_5 = type ; }
+public String toString ( ) { return STRING_1 + getName ( ) + STRING_2 + METHOD_1 ( ) + STRING_3 ; }
+public void METHOD_1 ( boolean VAR_1 ) { VAR_2 = VAR_1 ; }
+public VAR_1 ( ) { super ( STRING_1 , 1.0 , STRING_2 ) ; put ( STRING_3 , VAR_2 class . getName ( ) ) ; put ( STRING_4 , STRING_5 ) ; }
+public VAR_1 ( TYPE_1 context , String name , TYPE_2 VAR_2 , TYPE_3 < String > VAR_3 ) { VAR_4 = context . METHOD_1 ( ) . METHOD_2 ( name , null , STRING_1 ) ; VAR_5 = VAR_2 ; VAR_6 = new TYPE_4 ( context , VAR_7 , new TYPE_5 ( new TYPE_6 < > ( VAR_3 ) ) ) ; }
+public void METHOD_1 ( ) { super . METHOD_1 ( ) ; METHOD_2 ( VAR_1 , new TYPE_1 ( VAR_2 ) ) ; VAR_3 = true ; }
+public void METHOD_1 ( ) { TYPE_1 VAR_1 = METHOD_2 ( VAR_2 , null ) ; VAR_3 . METHOD_3 ( TYPE_2 . METHOD_4 ( VAR_1 ) ) ; METHOD_5 ( VAR_3 . METHOD_6 ( VAR_4 ) ) ; }
+public int METHOD_1 ( ) { if ( VAR_1 ) { return VAR_2 ; } else { TYPE_1 . METHOD_2 ( VAR_3 , STRING_1 ) ; return - 1 ; } }

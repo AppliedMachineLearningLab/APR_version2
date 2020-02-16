@@ -1,0 +1,14 @@
+Log,
+TYPE_1,
+e,getMaxNumBlacklistBssid,
+METHOD_2,METHOD_1,
+INVALID_LIST_SIZE,mFirmwareRoamingSupported,TAG,mMaxNumBlacklistBssid,
+VAR_4,VAR_1,VAR_3,VAR_2,
+
+
+
+
+
+
+"Firmware roaming is not supported","getMaxNumBlacklistBssid: Firmware roaming is not supported",
+STRING_1,STRING_2,

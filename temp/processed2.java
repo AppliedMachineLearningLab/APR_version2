@@ -1,0 +1,1 @@
+public int METHOD_1 ( ) { if ( VAR_1 ) { return VAR_2 ; } else { TYPE_1 . METHOD_2 ( VAR_3 , STRING_2 ) ; return VAR_4 ; } }
